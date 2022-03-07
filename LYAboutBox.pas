@@ -29,8 +29,7 @@ unit LYAboutBox;
 interface
 
 uses
-  forms, StdCtrls, Buttons, Graphics, Controls, ExtCtrls, Classes,
-  frxpngimage;
+  forms, StdCtrls, Buttons, Graphics, Controls, ExtCtrls, Classes;
 
 type
   TfrmLYAboutBox = class(TForm)
