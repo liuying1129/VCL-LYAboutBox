@@ -29,7 +29,8 @@ unit LYAboutBox;
 interface
 
 uses
-  forms, StdCtrls, Buttons, Graphics, Controls, ExtCtrls, Classes;
+  forms, StdCtrls, Buttons, Graphics, Controls, ExtCtrls, Classes,
+  frxpngimage;
 
 type
   TfrmLYAboutBox = class(TForm)
@@ -44,6 +45,9 @@ type
     WebPage: TLabel;
     Author: TLabel;
     ImageWeChat: TImage;
+    ImageWeChatCS: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
     procedure WebPageClick(Sender: TObject);
   private
     { Private declarations }
