@@ -3,7 +3,7 @@ unit UQRCodeLY;
 interface
 
 uses
-  Windows, Graphics, ExtCtrls,SysUtils{Exception};
+  Windows, ExtCtrls,SysUtils{Exception};
   
 ////////////////////////////////////////////////////////////////////////////////
 //Image file reading/writing APIs and definitions.
